@@ -1,11 +1,16 @@
-[COMPILE SMART CONTRACT]
-npx hardhat compile
+Getting Started
 
-[START LOCAL]
-npx hardhat node
+1. Run yarn command our npm on terminal.
+2. Then run "npx hardhat compile".
 
-[CONSOLE]
-npx hardhat console
 
-[DEPLOY SMART CONTRACT]
-npx hardhat run scripts/deploy.js --network <NETWORK_NAME>
+COMMANDS
+
+- START LOCAL
+  "npx hardhat node"
+
+- CONSOLE
+  "npx hardhat console"
+
+- DEPLOY SMART CONTRACT
+ "npx hardhat run scripts/deploy.js --network <NETWORK_NAME>"
